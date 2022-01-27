@@ -20,6 +20,8 @@ The Delete button calls the Delete function, which will erase the entry it is as
 
 The Read function is continuosly called to update the list - through both Update and Create functions.
 
+If no values are entered in any field, a warning popup will appears instead of creating an entry.
+
 <h2><b>Greatest challenge</b></h2> - Values will not be erased once the function completed, which caused a repeat call of a function to add the old values to the new ones. This was solved by purging the gathered data every time the Create fuction is called, after the values are passed to the Read function and populated.
 
 <h2><b>What I learned</b></h2> - I have gained a good grasp on creating a CRUD app, working out common buggs associated with making such an application, and gained a better understanding of using some Array functions.
