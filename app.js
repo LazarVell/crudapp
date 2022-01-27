@@ -25,7 +25,8 @@ var app = new function() {
             this.contactsInfo.push(task.trim());
 
         }
-
+        if (elName.value>0 || elAddress.value>0 ||
+            elPhone.value>0 || elType.value>0) {
         this.contacts.push(this.contactsInfo);
         this.contacts.join(" * ");
         elName.value='';
@@ -34,6 +35,9 @@ var app = new function() {
         elType.value='';
         this.Read();
         this.contactsInfo=[];
+            } else {
+                window.alert("No values entered, please enter at least one value.");
+            };
     };
 
     this.Read = function() {
