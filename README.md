@@ -1,4 +1,4 @@
-# CRUDapp
+# CRUD app
 
 <h2><b>Objective</b></h2> - Creating an app that functions as an address book, which can create, read, update and delete entries.
 
