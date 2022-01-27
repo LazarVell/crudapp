@@ -3,6 +3,8 @@
 <h2><b>Objective</b></h2> - Creating an app that functions as an address book, which can create, read, update and delete entries.
 
 A mock up of an address book was created for the purposes of demonstrating how I approached the logic of my CRUD app
+
+Bootstrap was added to style the buttons.
   
 <h2><b>How I did it</b></h2> - I first started with a form which has fields for a Name, Address, phone number and a designation for the contact.
 
@@ -22,4 +24,3 @@ The Read function is continuosly called to update the list - through both Update
 
 <h2><b>What I learned</b></h2> - I have gained a good grasp on creating a CRUD app, working out common buggs associated with making such an application, and gained a better understanding of using some Array functions.
 
-Bootstrap was added to style the buttons.
